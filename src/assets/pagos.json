@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "P-0001",
+    "fecha": "2025-08-11",
+    "empresa": "SESPA",
+    "areaOperacion": "FINANZAS",
+    "rubro": "VENTAS",
+    "tercero": "SUPERMERCADO XYZ",
+    "valorOperacion": 225373,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "INGRESO",
+    "formaPago": "EFECTIVO",
+    "tienePresupuesto": true,
+    "facturaUrl": "https://facturas.com/1.pdf",
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "david",
+        "fecha": "2025-08-11T04:00:00",
+        "nota": "Pagado"
+      }
+    ]
+  },
+  {
+    "id": "P-0002",
+    "fecha": "2025-08-09",
+    "empresa": "InnovaTech",
+    "areaOperacion": "OPERACIONES",
+    "rubro": "MANTENIMIENTO",
+    "tercero": "ESTACION ABC S.A.S.",
+    "valorOperacion": 3349781,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "TARJETA",
+    "tienePresupuesto": true,
+    "facturaUrl": null,
+    "soporteUrl": "https://soportes.com/2.pdf",
+    "trazabilidad": [
+      {
+        "usuario": "sofia",
+        "fecha": "2025-08-09T04:00:00",
+        "nota": "Pagado"
+      }
+    ]
+  },
+  {
+    "id": "P-0003",
+    "fecha": "2025-08-21",
+    "empresa": "InnovaTech",
+    "areaOperacion": "COMERCIAL",
+    "rubro": "COMBUSTIBLES",
+    "tercero": "SUPERMERCADO XYZ",
+    "valorOperacion": 2104089,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "EFECTIVO",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "joroa",
+        "fecha": "2025-08-21T01:00:00",
+        "nota": "Pagado"
+      }
+    ]
+  },
+  {
+    "id": "P-0004",
+    "fecha": "2025-08-15",
+    "empresa": "TransCaribe",
+    "areaOperacion": "TRANSPORTES",
+    "rubro": "COMBUSTIBLES",
+    "tercero": "GASOLINERA LOS PINOS",
+    "valorOperacion": 4207629,
+    "estadoPago": "PENDIENTE",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "CHEQUE",
+    "tienePresupuesto": true,
+    "facturaUrl": "https://facturas.com/4.pdf",
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "sofia",
+        "fecha": "2025-08-15T04:00:00",
+        "nota": "Revisado"
+      }
+    ]
+  },
+  {
+    "id": "P-0005",
+    "fecha": "2025-08-10",
+    "empresa": "TransCaribe",
+    "areaOperacion": "TRANSPORTES",
+    "rubro": "VENTAS",
+    "tercero": "GASOLINERA LOS PINOS",
+    "valorOperacion": 4513144,
+    "estadoPago": "PENDIENTE",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "CHEQUE",
+    "tienePresupuesto": false,
+    "facturaUrl": "https://facturas.com/5.pdf",
+    "soporteUrl": "https://soportes.com/5.pdf",
+    "trazabilidad": [
+      {
+        "usuario": "david",
+        "fecha": "2025-08-10T01:00:00",
+        "nota": "Revisado"
+      }
+    ]
+  },
+  {
+    "id": "P-0006",
+    "fecha": "2025-08-31",
+    "empresa": "SESPA",
+    "areaOperacion": "TRANSPORTES",
+    "rubro": "MARKETING",
+    "tercero": "CONSULTORES COLOMBIA",
+    "valorOperacion": 2961968,
+    "estadoPago": "AUTORIZADO",
+    "ingresoOGasto": "INGRESO",
+    "formaPago": "TARJETA",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "david",
+        "fecha": "2025-08-31T04:00:00",
+        "nota": "Creado"
+      }
+    ]
+  },
+  {
+    "id": "P-0007",
+    "fecha": "2025-08-22",
+    "empresa": "TransCaribe",
+    "areaOperacion": "FINANZAS",
+    "rubro": "VENTAS",
+    "tercero": "SUPERMERCADO XYZ",
+    "valorOperacion": 4928418,
+    "estadoPago": "AUTORIZADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "CHEQUE",
+    "tienePresupuesto": true,
+    "facturaUrl": null,
+    "soporteUrl": "https://soportes.com/7.pdf",
+    "trazabilidad": [
+      {
+        "usuario": "admin",
+        "fecha": "2025-08-22T05:00:00",
+        "nota": "Pagado"
+      }
+    ]
+  },
+  {
+    "id": "P-0008",
+    "fecha": "2025-08-11",
+    "empresa": "InnovaTech",
+    "areaOperacion": "TRANSPORTES",
+    "rubro": "VENTAS",
+    "tercero": "SUPERMERCADO XYZ",
+    "valorOperacion": 2934902,
+    "estadoPago": "PENDIENTE",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "EFECTIVO",
+    "tienePresupuesto": true,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "sofia",
+        "fecha": "2025-08-11T04:00:00",
+        "nota": "Creado"
+      }
+    ]
+  },
+  {
+    "id": "P-0009",
+    "fecha": "2025-08-27",
+    "empresa": "AgroCol",
+    "areaOperacion": "OPERACIONES",
+    "rubro": "MANTENIMIENTO",
+    "tercero": "GASOLINERA LOS PINOS",
+    "valorOperacion": 1837907,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "INGRESO",
+    "formaPago": "EFECTIVO",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "david",
+        "fecha": "2025-08-27T01:00:00",
+        "nota": "Autorizado"
+      }
+    ]
+  },
+  {
+    "id": "P-0010",
+    "fecha": "2025-08-13",
+    "empresa": "SESPA",
+    "areaOperacion": "FINANZAS",
+    "rubro": "MARKETING",
+    "tercero": "GASOLINERA LOS PINOS",
+    "valorOperacion": 921066,
+    "estadoPago": "PENDIENTE",
+    "ingresoOGasto": "INGRESO",
+    "formaPago": "TARJETA",
+    "tienePresupuesto": false,
+    "facturaUrl": "https://facturas.com/10.pdf",
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "sofia",
+        "fecha": "2025-08-13T01:00:00",
+        "nota": "Revisado"
+      }
+    ]
+  },
+  {
+    "id": "P-0011",
+    "fecha": "2025-08-06",
+    "empresa": "TransCaribe",
+    "areaOperacion": "LOGÍSTICA",
+    "rubro": "VENTAS",
+    "tercero": "ESTACION ABC S.A.S.",
+    "valorOperacion": 3502677,
+    "estadoPago": "PENDIENTE",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "EFECTIVO",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "admin",
+        "fecha": "2025-08-06T05:00:00",
+        "nota": "Autorizado"
+      }
+    ]
+  },
+  {
+    "id": "P-0012",
+    "fecha": "2025-08-02",
+    "empresa": "SESPA",
+    "areaOperacion": "OPERACIONES",
+    "rubro": "MANTENIMIENTO",
+    "tercero": "SUPERMERCADO XYZ",
+    "valorOperacion": 3058358,
+    "estadoPago": "AUTORIZADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "CHEQUE",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "admin",
+        "fecha": "2025-08-02T02:00:00",
+        "nota": "Revisado"
+      }
+    ]
+  },
+  {
+    "id": "P-0013",
+    "fecha": "2025-08-18",
+    "empresa": "TransCaribe",
+    "areaOperacion": "LOGÍSTICA",
+    "rubro": "COMBUSTIBLES",
+    "tercero": "CONSULTORES COLOMBIA",
+    "valorOperacion": 4995228,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "INGRESO",
+    "formaPago": "TRANSFERENCIA",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "joroa",
+        "fecha": "2025-08-18T05:00:00",
+        "nota": "Autorizado"
+      }
+    ]
+  },
+  {
+    "id": "P-0014",
+    "fecha": "2025-08-03",
+    "empresa": "GatoSoftware",
+    "areaOperacion": "OPERACIONES",
+    "rubro": "MARKETING",
+    "tercero": "SERVICIOS LTDA",
+    "valorOperacion": 1393826,
+    "estadoPago": "AUTORIZADO",
+    "ingresoOGasto": "INGRESO",
+    "formaPago": "TARJETA",
+    "tienePresupuesto": true,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "david",
+        "fecha": "2025-08-03T05:00:00",
+        "nota": "Autorizado"
+      }
+    ]
+  },
+  {
+    "id": "P-0015",
+    "fecha": "2025-08-01",
+    "empresa": "SESPA",
+    "areaOperacion": "TRANSPORTES",
+    "rubro": "SUELDOS",
+    "tercero": "SUPERMERCADO XYZ",
+    "valorOperacion": 1874299,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "TARJETA",
+    "tienePresupuesto": true,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "sofia",
+        "fecha": "2025-08-01T05:00:00",
+        "nota": "Revisado"
+      }
+    ]
+  },
+  {
+    "id": "P-0016",
+    "fecha": "2025-08-28",
+    "empresa": "InnovaTech",
+    "areaOperacion": "COMERCIAL",
+    "rubro": "COMBUSTIBLES",
+    "tercero": "SUPERMERCADO XYZ",
+    "valorOperacion": 388498,
+    "estadoPago": "AUTORIZADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "TRANSFERENCIA",
+    "tienePresupuesto": true,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "joroa",
+        "fecha": "2025-08-28T03:00:00",
+        "nota": "Autorizado"
+      }
+    ]
+  },
+  {
+    "id": "P-0017",
+    "fecha": "2025-08-10",
+    "empresa": "TransCaribe",
+    "areaOperacion": "COMERCIAL",
+    "rubro": "MANTENIMIENTO",
+    "tercero": "ESTACION ABC S.A.S.",
+    "valorOperacion": 444247,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "INGRESO",
+    "formaPago": "TRANSFERENCIA",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": "https://soportes.com/17.pdf",
+    "trazabilidad": [
+      {
+        "usuario": "joroa",
+        "fecha": "2025-08-10T02:00:00",
+        "nota": "Creado"
+      }
+    ]
+  },
+  {
+    "id": "P-0018",
+    "fecha": "2025-08-09",
+    "empresa": "TransCaribe",
+    "areaOperacion": "FINANZAS",
+    "rubro": "SUELDOS",
+    "tercero": "SUPERMERCADO XYZ",
+    "valorOperacion": 4361901,
+    "estadoPago": "AUTORIZADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "TARJETA",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "joroa",
+        "fecha": "2025-08-09T03:00:00",
+        "nota": "Revisado"
+      }
+    ]
+  },
+  {
+    "id": "P-0019",
+    "fecha": "2025-08-03",
+    "empresa": "InnovaTech",
+    "areaOperacion": "TRANSPORTES",
+    "rubro": "COMBUSTIBLES",
+    "tercero": "SUPERMERCADO XYZ",
+    "valorOperacion": 4166401,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "CHEQUE",
+    "tienePresupuesto": true,
+    "facturaUrl": "https://facturas.com/19.pdf",
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "admin",
+        "fecha": "2025-08-03T04:00:00",
+        "nota": "Autorizado"
+      }
+    ]
+  },
+  {
+    "id": "P-0020",
+    "fecha": "2025-08-26",
+    "empresa": "TransCaribe",
+    "areaOperacion": "LOGÍSTICA",
+    "rubro": "VENTAS",
+    "tercero": "CONSULTORES COLOMBIA",
+    "valorOperacion": 1577257,
+    "estadoPago": "PENDIENTE",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "TRANSFERENCIA",
+    "tienePresupuesto": true,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "admin",
+        "fecha": "2025-08-26T02:00:00",
+        "nota": "Pagado"
+      }
+    ]
+  },
+  {
+    "id": "P-0021",
+    "fecha": "2025-08-16",
+    "empresa": "TransCaribe",
+    "areaOperacion": "TRANSPORTES",
+    "rubro": "MANTENIMIENTO",
+    "tercero": "GASOLINERA LOS PINOS",
+    "valorOperacion": 323298,
+    "estadoPago": "PENDIENTE",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "CHEQUE",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "david",
+        "fecha": "2025-08-16T02:00:00",
+        "nota": "Autorizado"
+      }
+    ]
+  },
+  {
+    "id": "P-0022",
+    "fecha": "2025-08-14",
+    "empresa": "InnovaTech",
+    "areaOperacion": "LOGÍSTICA",
+    "rubro": "MARKETING",
+    "tercero": "SERVICIOS LTDA",
+    "valorOperacion": 3539215,
+    "estadoPago": "PENDIENTE",
+    "ingresoOGasto": "INGRESO",
+    "formaPago": "TARJETA",
+    "tienePresupuesto": true,
+    "facturaUrl": null,
+    "soporteUrl": "https://soportes.com/22.pdf",
+    "trazabilidad": [
+      {
+        "usuario": "david",
+        "fecha": "2025-08-14T03:00:00",
+        "nota": "Pagado"
+      }
+    ]
+  },
+  {
+    "id": "P-0023",
+    "fecha": "2025-08-16",
+    "empresa": "TransCaribe",
+    "areaOperacion": "COMERCIAL",
+    "rubro": "COMBUSTIBLES",
+    "tercero": "SUPERMERCADO XYZ",
+    "valorOperacion": 745819,
+    "estadoPago": "AUTORIZADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "CHEQUE",
+    "tienePresupuesto": true,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "joroa",
+        "fecha": "2025-08-16T03:00:00",
+        "nota": "Pagado"
+      }
+    ]
+  },
+  {
+    "id": "P-0024",
+    "fecha": "2025-08-17",
+    "empresa": "SESPA",
+    "areaOperacion": "FINANZAS",
+    "rubro": "MARKETING",
+    "tercero": "ESTACION ABC S.A.S.",
+    "valorOperacion": 3788174,
+    "estadoPago": "PENDIENTE",
+    "ingresoOGasto": "INGRESO",
+    "formaPago": "CHEQUE",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": "https://soportes.com/24.pdf",
+    "trazabilidad": [
+      {
+        "usuario": "david",
+        "fecha": "2025-08-17T05:00:00",
+        "nota": "Pagado"
+      }
+    ]
+  },
+  {
+    "id": "P-0025",
+    "fecha": "2025-08-28",
+    "empresa": "AgroCol",
+    "areaOperacion": "FINANZAS",
+    "rubro": "COMBUSTIBLES",
+    "tercero": "GASOLINERA LOS PINOS",
+    "valorOperacion": 3741304,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "INGRESO",
+    "formaPago": "TRANSFERENCIA",
+    "tienePresupuesto": true,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "sofia",
+        "fecha": "2025-08-28T02:00:00",
+        "nota": "Creado"
+      }
+    ]
+  },
+  {
+    "id": "P-0026",
+    "fecha": "2025-08-03",
+    "empresa": "SESPA",
+    "areaOperacion": "LOGÍSTICA",
+    "rubro": "SUELDOS",
+    "tercero": "GASOLINERA LOS PINOS",
+    "valorOperacion": 3781514,
+    "estadoPago": "PENDIENTE",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "EFECTIVO",
+    "tienePresupuesto": true,
+    "facturaUrl": "https://facturas.com/26.pdf",
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "admin",
+        "fecha": "2025-08-03T02:00:00",
+        "nota": "Revisado"
+      }
+    ]
+  },
+  {
+    "id": "P-0027",
+    "fecha": "2025-08-10",
+    "empresa": "TransCaribe",
+    "areaOperacion": "TRANSPORTES",
+    "rubro": "MANTENIMIENTO",
+    "tercero": "CONSULTORES COLOMBIA",
+    "valorOperacion": 2352248,
+    "estadoPago": "AUTORIZADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "TARJETA",
+    "tienePresupuesto": true,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "admin",
+        "fecha": "2025-08-10T01:00:00",
+        "nota": "Pagado"
+      }
+    ]
+  },
+  {
+    "id": "P-0028",
+    "fecha": "2025-08-19",
+    "empresa": "AgroCol",
+    "areaOperacion": "TRANSPORTES",
+    "rubro": "MARKETING",
+    "tercero": "SERVICIOS LTDA",
+    "valorOperacion": 3346170,
+    "estadoPago": "AUTORIZADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "TRANSFERENCIA",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": "https://soportes.com/28.pdf",
+    "trazabilidad": [
+      {
+        "usuario": "sofia",
+        "fecha": "2025-08-19T05:00:00",
+        "nota": "Creado"
+      }
+    ]
+  },
+  {
+    "id": "P-0029",
+    "fecha": "2025-08-09",
+    "empresa": "AgroCol",
+    "areaOperacion": "TRANSPORTES",
+    "rubro": "VENTAS",
+    "tercero": "ESTACION ABC S.A.S.",
+    "valorOperacion": 2439257,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "CHEQUE",
+    "tienePresupuesto": true,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "joroa",
+        "fecha": "2025-08-09T03:00:00",
+        "nota": "Pagado"
+      }
+    ]
+  },
+  {
+    "id": "P-0030",
+    "fecha": "2025-08-15",
+    "empresa": "GatoSoftware",
+    "areaOperacion": "OPERACIONES",
+    "rubro": "VENTAS",
+    "tercero": "GASOLINERA LOS PINOS",
+    "valorOperacion": 977500,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "TARJETA",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": "https://soportes.com/30.pdf",
+    "trazabilidad": [
+      {
+        "usuario": "david",
+        "fecha": "2025-08-15T01:00:00",
+        "nota": "Pagado"
+      }
+    ]
+  },
+  {
+    "id": "P-0031",
+    "fecha": "2025-08-16",
+    "empresa": "SESPA",
+    "areaOperacion": "LOGÍSTICA",
+    "rubro": "MANTENIMIENTO",
+    "tercero": "ESTACION ABC S.A.S.",
+    "valorOperacion": 515549,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "INGRESO",
+    "formaPago": "TRANSFERENCIA",
+    "tienePresupuesto": true,
+    "facturaUrl": "https://facturas.com/31.pdf",
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "joroa",
+        "fecha": "2025-08-16T05:00:00",
+        "nota": "Revisado"
+      }
+    ]
+  },
+  {
+    "id": "P-0032",
+    "fecha": "2025-08-16",
+    "empresa": "SESPA",
+    "areaOperacion": "OPERACIONES",
+    "rubro": "SUELDOS",
+    "tercero": "GASOLINERA LOS PINOS",
+    "valorOperacion": 3724343,
+    "estadoPago": "AUTORIZADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "CHEQUE",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "sofia",
+        "fecha": "2025-08-16T04:00:00",
+        "nota": "Pagado"
+      }
+    ]
+  },
+  {
+    "id": "P-0033",
+    "fecha": "2025-08-25",
+    "empresa": "SESPA",
+    "areaOperacion": "OPERACIONES",
+    "rubro": "SUELDOS",
+    "tercero": "ESTACION ABC S.A.S.",
+    "valorOperacion": 3139830,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "EFECTIVO",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "david",
+        "fecha": "2025-08-25T03:00:00",
+        "nota": "Revisado"
+      }
+    ]
+  },
+  {
+    "id": "P-0034",
+    "fecha": "2025-08-29",
+    "empresa": "AgroCol",
+    "areaOperacion": "TRANSPORTES",
+    "rubro": "MANTENIMIENTO",
+    "tercero": "GASOLINERA LOS PINOS",
+    "valorOperacion": 2454135,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "CHEQUE",
+    "tienePresupuesto": true,
+    "facturaUrl": null,
+    "soporteUrl": "https://soportes.com/34.pdf",
+    "trazabilidad": [
+      {
+        "usuario": "sofia",
+        "fecha": "2025-08-29T01:00:00",
+        "nota": "Creado"
+      }
+    ]
+  },
+  {
+    "id": "P-0035",
+    "fecha": "2025-08-08",
+    "empresa": "InnovaTech",
+    "areaOperacion": "LOGÍSTICA",
+    "rubro": "MANTENIMIENTO",
+    "tercero": "ESTACION ABC S.A.S.",
+    "valorOperacion": 4987569,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "TRANSFERENCIA",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": "https://soportes.com/35.pdf",
+    "trazabilidad": [
+      {
+        "usuario": "admin",
+        "fecha": "2025-08-08T02:00:00",
+        "nota": "Creado"
+      }
+    ]
+  },
+  {
+    "id": "P-0036",
+    "fecha": "2025-08-01",
+    "empresa": "SESPA",
+    "areaOperacion": "LOGÍSTICA",
+    "rubro": "VENTAS",
+    "tercero": "CONSULTORES COLOMBIA",
+    "valorOperacion": 4057294,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "INGRESO",
+    "formaPago": "CHEQUE",
+    "tienePresupuesto": true,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "joroa",
+        "fecha": "2025-08-01T05:00:00",
+        "nota": "Revisado"
+      }
+    ]
+  },
+  {
+    "id": "P-0037",
+    "fecha": "2025-08-01",
+    "empresa": "InnovaTech",
+    "areaOperacion": "LOGÍSTICA",
+    "rubro": "MANTENIMIENTO",
+    "tercero": "GASOLINERA LOS PINOS",
+    "valorOperacion": 2233427,
+    "estadoPago": "PENDIENTE",
+    "ingresoOGasto": "INGRESO",
+    "formaPago": "EFECTIVO",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "sofia",
+        "fecha": "2025-08-01T03:00:00",
+        "nota": "Pagado"
+      }
+    ]
+  },
+  {
+    "id": "P-0038",
+    "fecha": "2025-08-05",
+    "empresa": "TransCaribe",
+    "areaOperacion": "LOGÍSTICA",
+    "rubro": "SUELDOS",
+    "tercero": "ESTACION ABC S.A.S.",
+    "valorOperacion": 2326664,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "TARJETA",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "joroa",
+        "fecha": "2025-08-05T02:00:00",
+        "nota": "Autorizado"
+      }
+    ]
+  },
+  {
+    "id": "P-0039",
+    "fecha": "2025-08-10",
+    "empresa": "AgroCol",
+    "areaOperacion": "COMERCIAL",
+    "rubro": "VENTAS",
+    "tercero": "CONSULTORES COLOMBIA",
+    "valorOperacion": 4661016,
+    "estadoPago": "PENDIENTE",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "CHEQUE",
+    "tienePresupuesto": true,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "admin",
+        "fecha": "2025-08-10T01:00:00",
+        "nota": "Creado"
+      }
+    ]
+  },
+  {
+    "id": "P-0040",
+    "fecha": "2025-08-07",
+    "empresa": "InnovaTech",
+    "areaOperacion": "OPERACIONES",
+    "rubro": "COMBUSTIBLES",
+    "tercero": "CONSULTORES COLOMBIA",
+    "valorOperacion": 707675,
+    "estadoPago": "PENDIENTE",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "TARJETA",
+    "tienePresupuesto": true,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "joroa",
+        "fecha": "2025-08-07T03:00:00",
+        "nota": "Revisado"
+      }
+    ]
+  },
+  {
+    "id": "P-0041",
+    "fecha": "2025-08-09",
+    "empresa": "SESPA",
+    "areaOperacion": "OPERACIONES",
+    "rubro": "VENTAS",
+    "tercero": "GASOLINERA LOS PINOS",
+    "valorOperacion": 209325,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "TARJETA",
+    "tienePresupuesto": true,
+    "facturaUrl": null,
+    "soporteUrl": "https://soportes.com/41.pdf",
+    "trazabilidad": [
+      {
+        "usuario": "joroa",
+        "fecha": "2025-08-09T01:00:00",
+        "nota": "Autorizado"
+      }
+    ]
+  },
+  {
+    "id": "P-0042",
+    "fecha": "2025-08-29",
+    "empresa": "TransCaribe",
+    "areaOperacion": "TRANSPORTES",
+    "rubro": "MANTENIMIENTO",
+    "tercero": "GASOLINERA LOS PINOS",
+    "valorOperacion": 1280115,
+    "estadoPago": "AUTORIZADO",
+    "ingresoOGasto": "INGRESO",
+    "formaPago": "EFECTIVO",
+    "tienePresupuesto": false,
+    "facturaUrl": "https://facturas.com/42.pdf",
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "david",
+        "fecha": "2025-08-29T02:00:00",
+        "nota": "Autorizado"
+      }
+    ]
+  },
+  {
+    "id": "P-0043",
+    "fecha": "2025-08-24",
+    "empresa": "GatoSoftware",
+    "areaOperacion": "TRANSPORTES",
+    "rubro": "COMBUSTIBLES",
+    "tercero": "CONSULTORES COLOMBIA",
+    "valorOperacion": 666264,
+    "estadoPago": "AUTORIZADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "TARJETA",
+    "tienePresupuesto": true,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "admin",
+        "fecha": "2025-08-24T01:00:00",
+        "nota": "Pagado"
+      }
+    ]
+  },
+  {
+    "id": "P-0044",
+    "fecha": "2025-08-15",
+    "empresa": "GatoSoftware",
+    "areaOperacion": "OPERACIONES",
+    "rubro": "VENTAS",
+    "tercero": "CONSULTORES COLOMBIA",
+    "valorOperacion": 4539258,
+    "estadoPago": "AUTORIZADO",
+    "ingresoOGasto": "INGRESO",
+    "formaPago": "TARJETA",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "admin",
+        "fecha": "2025-08-15T04:00:00",
+        "nota": "Creado"
+      }
+    ]
+  },
+  {
+    "id": "P-0045",
+    "fecha": "2025-08-22",
+    "empresa": "GatoSoftware",
+    "areaOperacion": "LOGÍSTICA",
+    "rubro": "MANTENIMIENTO",
+    "tercero": "GASOLINERA LOS PINOS",
+    "valorOperacion": 2632497,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "TARJETA",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": "https://soportes.com/45.pdf",
+    "trazabilidad": [
+      {
+        "usuario": "admin",
+        "fecha": "2025-08-22T03:00:00",
+        "nota": "Pagado"
+      }
+    ]
+  },
+  {
+    "id": "P-0046",
+    "fecha": "2025-08-22",
+    "empresa": "InnovaTech",
+    "areaOperacion": "COMERCIAL",
+    "rubro": "MARKETING",
+    "tercero": "SUPERMERCADO XYZ",
+    "valorOperacion": 413285,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "INGRESO",
+    "formaPago": "EFECTIVO",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "david",
+        "fecha": "2025-08-22T01:00:00",
+        "nota": "Revisado"
+      }
+    ]
+  },
+  {
+    "id": "P-0047",
+    "fecha": "2025-08-05",
+    "empresa": "InnovaTech",
+    "areaOperacion": "OPERACIONES",
+    "rubro": "MARKETING",
+    "tercero": "SERVICIOS LTDA",
+    "valorOperacion": 2717811,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "TRANSFERENCIA",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "admin",
+        "fecha": "2025-08-05T05:00:00",
+        "nota": "Revisado"
+      }
+    ]
+  },
+  {
+    "id": "P-0048",
+    "fecha": "2025-08-19",
+    "empresa": "InnovaTech",
+    "areaOperacion": "COMERCIAL",
+    "rubro": "COMBUSTIBLES",
+    "tercero": "CONSULTORES COLOMBIA",
+    "valorOperacion": 1509500,
+    "estadoPago": "PAGADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "TRANSFERENCIA",
+    "tienePresupuesto": false,
+    "facturaUrl": null,
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "joroa",
+        "fecha": "2025-08-19T05:00:00",
+        "nota": "Revisado"
+      }
+    ]
+  },
+  {
+    "id": "P-0049",
+    "fecha": "2025-08-09",
+    "empresa": "InnovaTech",
+    "areaOperacion": "LOGÍSTICA",
+    "rubro": "MANTENIMIENTO",
+    "tercero": "SERVICIOS LTDA",
+    "valorOperacion": 1146311,
+    "estadoPago": "AUTORIZADO",
+    "ingresoOGasto": "GASTO",
+    "formaPago": "TRANSFERENCIA",
+    "tienePresupuesto": false,
+    "facturaUrl": "https://facturas.com/49.pdf",
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "admin",
+        "fecha": "2025-08-09T01:00:00",
+        "nota": "Pagado"
+      }
+    ]
+  },
+  {
+    "id": "P-0050",
+    "fecha": "2025-08-28",
+    "empresa": "SESPA",
+    "areaOperacion": "COMERCIAL",
+    "rubro": "MARKETING",
+    "tercero": "CONSULTORES COLOMBIA",
+    "valorOperacion": 4980891,
+    "estadoPago": "AUTORIZADO",
+    "ingresoOGasto": "INGRESO",
+    "formaPago": "EFECTIVO",
+    "tienePresupuesto": false,
+    "facturaUrl": "https://facturas.com/50.pdf",
+    "soporteUrl": null,
+    "trazabilidad": [
+      {
+        "usuario": "david",
+        "fecha": "2025-08-28T02:00:00",
+        "nota": "Revisado"
+      }
+    ]
+  }
+]
