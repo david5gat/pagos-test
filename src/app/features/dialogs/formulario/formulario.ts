@@ -29,6 +29,7 @@ export class Formulario  implements OnInit,OnChanges{
   @Output() EditvisibleForm = new EventEmitter<boolean>();
 
   @Input() editarPagoarray! : Facturacion; 
+  
 
   formeditar!: FormGroup<any>
 
@@ -85,8 +86,7 @@ formasPago = [
 
 guardar() {
     if (this.formeditar.valid) {
-      console.log('Formulario válido', this.formeditar.value);
-      this.EditvisibleForm.emit(false);
+      
     } else {
       this.formeditar.markAllAsTouched();
     }

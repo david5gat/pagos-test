@@ -90,4 +90,9 @@ formasPago = [
   }
   
 
+  CrearNuevo(evento: any){
+    console.log(evento);
+    
+  }
+
 }
