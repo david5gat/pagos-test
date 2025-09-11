@@ -1,27 +1,85 @@
 # PagosTest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) versión **17.3.17**.  
+El objetivo principal de este proyecto es gestionar datos de **facturación/pagos** utilizando **Angular** y la librería de componentes **PrimeNG**.  
 
-## Development server
+Se desarrolló una **tabla interactiva** para listar información de pagos, junto con un **formulario de edición reactivo** dentro de un `p-dialog` de PrimeNG.  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🚀 Características principales
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular 17** como framework base.
+- **PrimeNG** como librería principal para la UI (tabla, formularios, diálogos, inputs, calendarios, dropdowns, etc.).
+- **Tabla interactiva con paginación** usando `p-table`.
+- **Búsqueda global** en la tabla con `filterGlobal`.
+- **Formulario de edición reactivo** con `FormGroup` y validaciones.
+- **Uso de componentes de PrimeNG**:  
+  - `p-table`  
+  - `p-dialog`  
+  - `p-inputText`  
+  - `p-multiSelect`  
+  - `p-calendar`  
+  - `p-button`  
 
-## Build
+> ✍️ Nota personal: La mayoría de la UI se construyó con **PrimeNG** porque facilita mucho el desarrollo y el diseño responsive.  
+> Además, para crear arrays como **estados** y **formas de pago**, tuve la ayuda de **ChatGPT** para ahorrar tiempo en escritura y estandarizar los valores en mayúsculas.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 📂 Estructura principal creada
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Tabla de Pagos (PrimeNG `p-table`)
+- Se listan los datos principales de facturación:
+  - Empresa  
+  - Rubro  
+  - Área de Operaciones  
+  - Tercero  
+  - Valor de la operación  
+  - Estado de pago  
+  - Forma de pago  
+  - Fecha  
+- Incluye:
+  - **Paginación** con `rows` y `rowsPerPageOptions`.
+  - **Búsqueda global** sobre campos configurados en `globalFilterFields`.
 
-## Running end-to-end tests
+### Formulario de edición (PrimeNG `p-dialog`)
+- Formulario **reactivo** para editar un pago seleccionado.
+- Se organizó en **3 columnas** con campos distribuidos:
+  - Columna 1 → Empresa, Rubro, Área de Operaciones.  
+  - Columna 2 → Tercero, Valor, Estado de Pago.  
+  - Columna 3 → Forma de Pago, Fecha.  
+- Validaciones básicas (`required`, `min`, etc.).
+- **Botones de Cancelar y Guardar**.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## 📖 Instrucciones de uso
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 1️⃣ Clonar el proyecto
+```bash
+git clone https://github.com/tu-usuario/pagostest.git
+cd pagostest
+Instalar dependencias
+- npm install
+Levantar el servidor de desarrollo
+-ng serve
+Abrir en el navegador: http://localhost:4200/
+
+📋Dependencias importantes
+
+Angular 17.3.17
+
+PrimeNG
+
+PrimeIcons
+
+PrimeFlex (para la grilla y utilidades de diseño)
+
+Asegúrate de tener también importado el tema de PrimeNG en tu styles.scss, por ejemplo
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+🧑‍💻 Autor
+- Johan David Ortiz
+Gracias por la atencion prestada. 👋
