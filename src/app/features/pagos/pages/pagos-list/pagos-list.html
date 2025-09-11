@@ -31,7 +31,7 @@
             <th>{{'estado de pago' | titlecase}}</th>
             <th>{{'forma de pago' | titlecase}}</th>
             <th>{{'fecha' | titlecase}}</th>
-            <th>{{'fecha' | titlecase}}</th>
+            <th>{{'Editar / Crear' | titlecase}}</th>
         </tr>
         <tr>
               <th>
@@ -79,6 +79,14 @@
       <th>
         <!-- Filtro por fecha -->
         <p-columnFilter type="date" field="fecha" placeholder="Filtrar fecha" />
+      </th>
+      <th>
+        <button 
+            type="button" 
+            pButton 
+            pRipple 
+            icon="pi pi-user-plus" >
+        </button>
       </th>
     </tr>
   </ng-template>
