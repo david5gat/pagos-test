@@ -1,0 +1,80 @@
+import { CommonModule } from '@angular/common';
+import { Component, EventEmitter, Input, OnChanges, Output, SimpleChanges } from '@angular/core';
+
+import { DialogModule } from 'primeng/dialog';
+import { ButtonModule } from 'primeng/button';
+import { InputTextModule } from 'primeng/inputtext';
+import { Facturacion } from '../../pagos/pages/pagos-list/pagos-list';
+import { MultiSelectModule } from 'primeng/multiselect';
+import { CalendarModule } from 'primeng/calendar';
+import { FormBuilder, FormGroup, FormsModule, Validators } from "@angular/forms";
+@Component({
+  selector: 'app-formulario',
+  imports: [
+    CommonModule,
+    DialogModule,
+    ButtonModule,
+    InputTextModule,
+    MultiSelectModule,
+    CalendarModule,
+    FormsModule
+],
+  standalone : true,
+  templateUrl: './formulario.html',
+  styleUrl: './formulario.css'
+})
+export class Formulario {
+  @Input() EditarVisible : boolean = false
+  @Output() EditvisibleForm = new EventEmitter<boolean>();
+
+  @Input() editarPagoarray! : Facturacion; 
+
+  formeditar!: FormGroup<any>
+
+  
+  Editar:boolean = false;
+  
+  
+  
+  noVisible(){
+    this.EditvisibleForm.emit(false)
+  }
+
+   constructor(private fb: FormBuilder) {}
+
+  ngOnInit(): void {
+    this.formeditar = this.fb.group({
+      empresa: [this.editarPagoarray?.empresa || '', Validators.required],
+      rubro: [this.editarPagoarray?.rubro || '', Validators.required],
+      areaOperacion: [this.editarPagoarray?.areaOperacion || '', Validators.required],
+      tercero: [this.editarPagoarray?.tercero || '', Validators.required],
+      valorOperacion: [this.editarPagoarray?.valorOperacion || 0, [Validators.required, Validators.min(1)]],
+      estadoPago: [this.editarPagoarray?.estadoPago || null, Validators.required],
+      formaPago: [this.editarPagoarray?.formaPago || null, Validators.required],
+      fecha: [this.editarPagoarray?.fecha || new Date(), Validators.required]
+    });
+  }
+
+
+estados = [
+  { label: 'PENDIENTE', value: 'PENDIENTE' },
+  { label: 'AUTORIZADO', value: 'AUTORIZADO' },
+  { label: 'PAGADO', value: 'PAGADO' }
+];
+
+formasPago = [
+  { label: 'EFECTIVO', value: 'EFECTIVO' },
+  { label: 'TRANSFERENCIA', value: 'TRANSFERENCIA' },
+  { label: 'TARJETA', value: 'TARJETA' }
+];
+
+guardar() {
+    if (this.formeditar.valid) {
+      console.log('Formulario válido', this.formeditar.value);
+      this.EditvisibleForm.emit(false);
+    } else {
+      this.formeditar.markAllAsTouched();
+    }
+  }
+
+}

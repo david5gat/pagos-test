@@ -1,0 +1,80 @@
+<p-dialog 
+  header="{{'editar Pago' | uppercase}}" 
+  (onHide)="noVisible()" 
+  [modal]="true" 
+  [(visible)]="EditarVisible" 
+  [style]="{ width: '75rem' }">
+
+  <span class="p-text-secondary block mb-8">
+    {{'actualiza la informacion' | titlecase}}
+  </span>
+
+  <form [formGroup]="formeditar" class="row">
+    
+    <div class="col-3 m-4">
+      <div class="mb-4">
+        <label for="empresa" class="font-semibold block mb-2">Empresa</label>
+        <input pInputText id="empresa" formControlName="empresa" class="w-full" />
+      </div>
+
+      <div class="mb-4">
+        <label for="rubro" class="font-semibold block mb-2">Rubro</label>
+        <input pInputText id="rubro" formControlName="rubro" class="w-full" />
+      </div>
+
+      <div class="mb-4">
+        <label for="areaOperacion" class="font-semibold block mb-2">Área de Operaciones</label>
+        <input pInputText id="areaOperacion" formControlName="areaOperacion" class="w-full" />
+      </div>
+    </div>
+
+    <div class="col-3 m-4">
+      <div class="mb-4">
+        <label for="tercero" class="font-semibold block mb-2">Tercero</label>
+        <input pInputText id="tercero" formControlName="tercero" class="w-full" />
+      </div>
+
+      <div class="mb-4">
+        <label for="valorOperacion" class="font-semibold block mb-2">Valor</label>
+        <input pInputText type="number" id="valorOperacion" formControlName="valorOperacion" class="w-full" />
+      </div>
+
+      <div class="mb-4">
+        <label for="estadoPago" class="font-semibold block mb-2">Estado de Pago</label>
+        <p-multiSelect 
+          id="estadoPago" 
+          [options]="estados" 
+          formControlName="estadoPago"
+          placeholder="Selecciona un estado">
+        </p-multiSelect>
+      </div>
+    </div>
+
+    <div class="col-3 m-4">
+      <div class="mb-4">
+        <label for="formaPago" class="font-semibold block mb-2">Forma de Pago</label>
+        <p-multiSelect 
+          id="formaPago"
+          [options]="formasPago" 
+          formControlName="formaPago"
+          placeholder="Selecciona una forma">
+        </p-multiSelect>
+      </div>
+
+      <div class="mb-4">
+        <label for="fecha" class="font-semibold block mb-2">Fecha</label>
+        <p-calendar 
+          id="fecha" 
+          formControlName="fecha"
+          dateFormat="yy-mm-dd" 
+          showIcon="true">
+        </p-calendar>
+      </div>
+    </div>
+  </form>
+
+  <div class="flex justify-end gap-2 mt-4">
+    <p-button label="Cancel" severity="secondary" (click)="noVisible()" />
+    <p-button label="Save" (click)="guardar()" />
+  </div>
+</p-dialog>

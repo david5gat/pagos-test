@@ -1,18 +1,114 @@
-<p-table [value]="products" [tableStyle]="{ 'min-width': '50rem' }">
+<p-table
+#dt2
+[paginator]="true"
+[rows]="5"
+[value]="facturacion" 
+[rowsPerPageOptions]="[5, 10, 20]"
+[globalFilterFields]="['empresa', 'product.empresa', 'product.rubro', 'rubro']"
+[tableStyle]="{ 'min-width': '50rem' }">
+<ng-template pTemplate="caption">
+            <div class="flex">
+                <p-iconField iconPosition="left" class="ml-auto">
+                    <p-inputIcon>
+                        <i class="pi pi-search"></i>
+                    </p-inputIcon>
+                    <input 
+                        pInputText 
+                        #gb
+                        type="text" 
+                        (input)="dt2.filterGlobal(gb.value, 'contains')" 
+                        placeholder="Search keyword" />
+                </p-iconField>
+            </div>
+        </ng-template>
     <ng-template pTemplate="header">
         <tr>
-            <th>Code</th>
-            <th>Name</th>
-            <th>Category</th>
-            <th>Quantity</th>
+            <th>{{'empresa' | titlecase}}</th>
+            <th>{{'rubro' | titlecase}}</th>
+            <th>{{'area de Operaciones' | titlecase}}</th>
+            <th>{{'tercero' | titlecase}}</th>
+            <th>{{'valor' | titlecase}}</th>
+            <th>{{'estado de pago' | titlecase}}</th>
+            <th>{{'forma de pago' | titlecase}}</th>
+            <th>{{'fecha' | titlecase}}</th>
+            <th>{{'fecha' | titlecase}}</th>
         </tr>
-    </ng-template>
+        <tr>
+              <th>
+        <p-columnFilter type="text" field="empresa" placeholder="Filtrar empresa" />
+      </th>
+      <th>
+        <p-columnFilter type="text" field="rubro" placeholder="Filtrar rubro" />
+      </th>
+      <th>
+        <p-columnFilter type="text" field="areaOperacion" placeholder="Filtrar área" />
+      </th>
+      <th>
+        <p-columnFilter type="text" field="tercero" placeholder="Filtrar tercero" />
+      </th>
+      <th>
+        <p-columnFilter type="numeric" field="valorOperacion" placeholder="Filtrar valor" />
+      </th>
+      <th>
+                    <p-columnFilter field="estadoPago" matchMode="equals" [showMenu]="false">
+          <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+            <p-multiSelect 
+              [ngModel]="value"
+              [options]="estados"
+              (onChange)="filter($event.value)" 
+              placeholder="Estado"
+              [showClear]="true">
+            </p-multiSelect>
+          </ng-template>
+        </p-columnFilter>
+      </th>
+      <th>
+        <!-- Dropdown con formas de pago -->
+        <p-columnFilter field="formaPago" matchMode="equals" [showMenu]="false">
+          <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+            <p-multiSelect 
+              [ngModel]="value"
+              [options]="formasPago"
+              (onChange)="filter($event.value)" 
+              placeholder="Forma de pago"
+              [showClear]="true">
+            </p-multiSelect>
+          </ng-template>
+        </p-columnFilter>
+      </th>
+      <th>
+        <!-- Filtro por fecha -->
+        <p-columnFilter type="date" field="fecha" placeholder="Filtrar fecha" />
+      </th>
+    </tr>
+  </ng-template>
+
+
     <ng-template pTemplate="body" let-product>
         <tr>
-            <td>{{ product.code }}</td>
-            <td>{{ product.name }}</td>
-            <td>{{ product.category }}</td>
-            <td>{{ product.quantity }}</td>
+            <td>{{ product.empresa }}</td>
+            <td>{{ product.rubro }}</td>
+            <td>{{ product.areaOperacion }}</td>
+            <td>{{ product.tercero }}</td>
+            <td>{{ product.valorOperacion }}</td>
+            <td>{{ product.estadoPago }}</td>
+            <td>{{ product.formaPago }}</td>
+            <td>{{ product.fecha }}</td>
+             <td>
+                <button 
+                    type="button" 
+                    pButton 
+                    pRipple 
+                    icon="pi pi-pen-to-square" 
+                    (click)="EditarPago(product)">
+                </button>
+            </td>
         </tr>
     </ng-template>
 </p-table>
+
+ <app-formulario 
+ [EditarVisible]="visibleForm" 
+ (EditvisibleForm)="visibleForm = $event"
+ [editarPagoarray]="editarPagoArray"
+ ></app-formulario> 
