@@ -59,6 +59,8 @@ export class PagosList implements OnInit {
 
   editarPagoArray! : Facturacion;
 
+  formulario : Facturacion[] = [];
+
   estados = [
   { label: 'PENDIENTE', value: 'PENDIENTE' },
   { label: 'AUTORIZADO', value: 'AUTORIZADO' },
@@ -88,11 +90,44 @@ formasPago = [
     this.visibleForm = true;
     this.editarPagoArray = evento;
   }
-  
 
-  CrearNuevo(evento: any){
-    console.log(evento);
-    
+  CrearNuevo(){
+    this.visibleForm = true;
+    this.editarPagoArray =  
+    {
+      id: "p-00"+this.facturacion.length.toString(),
+    fecha: '',
+    empresa: '',
+    areaOperacion: '',
+    rubro: '',
+    tercero: '',
+    valorOperacion: 0,
+    estadoPago: '',
+    ingresoGasto: '',
+    formaPago: '',
+    tienePresupuesto: false,
+    facturaUrl: null,
+    soporteUrl: null,
+    trazabilidad: {
+      usuario: '',
+      fecha: '',
+      nota: ''
+    }
+  }; 
+  }
+
+  formularioEditado(factura : Facturacion){
+
+    let facturacionIndex = this.facturacion.findIndex(x => x.id === factura.id)
+    if (facturacionIndex > -1) {
+      this.facturacion.concat(factura)
+    } else {
+      console.error("error al agregar factura");
+      
+    }
+    let cambio = this.facturacion[facturacionIndex] = factura;
+    console.log(cambio);
+        
   }
 
 }

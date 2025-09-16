@@ -85,7 +85,10 @@
             type="button" 
             pButton 
             pRipple 
-            icon="pi pi-user-plus" >
+            icon="pi pi-user-plus"
+            (click)="CrearNuevo()"
+             >
+            
         </button>
       </th>
     </tr>
@@ -108,7 +111,7 @@
                     pButton 
                     pRipple 
                     icon="pi pi-pen-to-square" 
-                    (click)="CrearNuevo(product)">
+                    (click)="EditarPago(product)">
                 </button>
             </td>
         </tr>
@@ -119,4 +122,5 @@
  [EditarVisible]="visibleForm" 
  (EditvisibleForm)="visibleForm = $event"
  [editarPagoarray]="editarPagoArray"
+ (FormEdit)="formularioEditado($event)"
  ></app-formulario> 
